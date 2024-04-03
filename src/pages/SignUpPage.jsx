@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/signup-img.jpg'
+import { Link } from 'react-router-dom'
 
 const SignUpPage = () => {
     return (
@@ -54,6 +55,10 @@ const SignUpPage = () => {
                                     </div>
                                 </form>
                             </div>
+
+                            <h3>
+                                Already have an account? <Link to={'/'}>Login</Link>
+                            </h3>
                         </div>
                     </div>
                 </div>
