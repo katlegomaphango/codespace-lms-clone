@@ -19,7 +19,39 @@ const SignUpPage = () => {
 
                             <div className="signup-right_form">
                                 <form className="signup-form">
-                                    
+                                    <div>
+                                        <input 
+                                            type="text" 
+                                            placeholder='Your Name'
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <input 
+                                            type="text" 
+                                            placeholder='Your Surname'
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <input 
+                                            type="email" 
+                                            placeholder='Your Email'
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <input 
+                                            type="password" 
+                                            placeholder='Create Password'
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <button type='submit'>
+                                            Sign Up
+                                        </button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
