@@ -12,7 +12,17 @@ const SignUpPage = () => {
                         </div>
                     </div>
                     <div className="signup-right">
-                        
+                        <div className="signup-right_container">
+                            <h1 className="signup-right_title">
+                                Please Sign Up
+                            </h1>
+
+                            <div className="signup-right_form">
+                                <form className="signup-form">
+                                    
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
